@@ -42,10 +42,20 @@ export const IconKeys = {
   docker: "docker",
   spark: "spark",
   python: "python",
+  tensorflow: "tensorflow",
+  sql: "sql",
   // here add more icon keys
 };
 
 export const skills = [
+  {
+    title: "TensorFlow ",
+    icon: IconKeys.tensorflow,
+  },
+  {
+    title: "SQL ",
+    icon: IconKeys.sql,
+  },
   {
     title: "Docker ",
     icon: IconKeys.docker,
