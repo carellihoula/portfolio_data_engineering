@@ -1,21 +1,18 @@
 export const studies = [
   {
-    title: "4A Informatique (Data & IA)",
-    corporation: "ESEO – Grande École d’ingénieurs",
-    date: "2024 – 2025",
+    title: "Engineering Degree in Computer Science (Human-Computer Interaction)",
+    corporation: "ENSIM – National School of Engineers of Le Mans, Le Mans (72)",
+    date: "2022 – 2025",
   },
   {
-    title: "BAC+4 en Informatique",
-    corporation:
-      "École Nationale Supérieure d'Ingénieurs du Mans, Le Mans (72)",
-    date: "2022 – 2024",
-  },
-  {
-    title: "BTS SIO SLAM (Solutions Logicielles et Applications Metiers)",
-    corporation: "ENSITECH - ENSUP, Cergy (95) ",
+    title: "BTS SIO SLAM (Software Solutions and Business Applications)",
+    corporation: "ENSITECH - ENSUP, Cergy (95)",
     date: "2020 – 2022",
   },
 ];
+
+
+
 
 export const IconKeys = {
   html: "html",
@@ -48,10 +45,7 @@ export const IconKeys = {
 };
 
 export const skills = [
-  {
-    title: "TensorFlow ",
-    icon: IconKeys.tensorflow,
-  },
+  
   {
     title: "SQL ",
     icon: IconKeys.sql,
@@ -61,11 +55,35 @@ export const skills = [
     icon: IconKeys.docker,
   },
   {
+    title: "Kubernetes",
+    icon: IconKeys.kubernetes
+  },
+  {
     title: "Python ",
     icon: IconKeys.python,
   },
   {
-    title: "Spark Apache ",
+    title: "Airflow ",
+    icon: IconKeys.airflow,
+  },
+  {
+    title: "Apache Kafka ",
+    icon: IconKeys.kafka,
+  },
+  {
+    title: "PowerBI ",
+    icon: IconKeys.powerbi,
+  },
+  {
+    title: "Jenkins ",
+    icon: IconKeys.jenkins,
+  },
+  {
+    title: "GitLab CI ",
+    icon: IconKeys.gitlabci,
+  },
+  {
+    title: " Apache Spark ",
     icon: IconKeys.spark,
   },
   {
@@ -122,10 +140,6 @@ export const skills = [
   },
 
   {
-    title: "React Query",
-    icon: IconKeys.reactQuery,
-  },
-  {
     title: "Vite",
     icon: IconKeys.vite,
   },
@@ -138,8 +152,8 @@ export const skills = [
 
 export const projects = [
   {
-    img: "../../../img/tasks-manager.webp",
-    title: "Tasks Manager",
+    img: "../../../img/crazee.png",
+    title: "Crazee Burger",
     link: "https://task-manager-ecru-chi.vercel.app/dashboard",
     description: `Administrador de tareas con drag and drop autenticación con Clerk , shadcn.  "En Desarrollo "`,
     technologies: [
@@ -160,47 +174,5 @@ export const projects = [
       },
     ],
   },
-
-  {
-    img: "../../../img/nexanime.webp",
-    title: "NexAnime",
-    link: "https://nexanime.vercel.app",
-    description: `plataforma de anime para ver los animes en tendencia , más valorados , estadísticas.`,
-    technologies: [
-      {
-        icon: IconKeys.typeScript,
-      },
-      {
-        icon: IconKeys.nextjs,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-    ],
-  },
-  {
-    img: "../../../img/store-games.webp",
-    title: "Store games",
-    link: "https://store-games-site.netlify.app/",
-    description: `Simulando una página de juegos , consumiendo la API de rawg api
-      donde los usuarios pueden buscar videojuegos, ver sus detalles como
-      creadores , calificaciones,tiendas donde comprar.....`,
-    technologies: [
-      {
-        icon: IconKeys.react,
-      },
-      {
-        icon: IconKeys.css,
-      },
-      {
-        icon: IconKeys.javaScript,
-      },
-      {
-        icon: IconKeys.tailwind,
-      },
-      {
-        icon: IconKeys.reactQuery,
-      },
-    ],
-  },
+ 
 ];
