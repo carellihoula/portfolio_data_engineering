@@ -89,6 +89,9 @@ export const skills = [
   {
     title: "React Js",
     icon: IconKeys.react,
+  },{
+    title: "Django",
+    icon: IconKeys.django,
   },
   {
     title: "Node Js",
@@ -134,10 +137,7 @@ export const skills = [
     title: "Redux Js",
     icon: IconKeys.redux,
   },
-  {
-    title: "Styled Components",
-    icon: IconKeys.styled,
-  },
+ 
 
   {
     title: "Vite",
@@ -154,24 +154,22 @@ export const projects = [
   {
     img: "../../../img/crazee.png",
     title: "Crazee Burger",
-    link: "https://task-manager-ecru-chi.vercel.app/dashboard",
-    description: `Administrador de tareas con drag and drop autenticación con Clerk , shadcn.  "En Desarrollo "`,
+    link: "https://crazee-burger-pi.vercel.app/",
+    description: `Crazee Burger est une interface frontend pour la commande de burgers en ligne, développée avec ReactJS. `,
     technologies: [
       {
-        icon: IconKeys.typeScript,
+        icon: IconKeys.javaScript,
       },
       {
-        icon: IconKeys.nextjs,
+        icon: IconKeys.react,
       },
       {
-        icon: IconKeys.tailwind,
+        icon: IconKeys.redux,
       },
       {
-        icon: IconKeys.zustand,
+        icon: IconKeys.styled,
       },
-      {
-        icon: IconKeys.shadcn,
-      },
+      
     ],
   },
  
