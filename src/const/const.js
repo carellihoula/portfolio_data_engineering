@@ -1,7 +1,9 @@
 export const studies = [
   {
-    title: "Engineering Degree in Computer Science (Human-Computer Interaction)",
-    corporation: "ENSIM – National School of Engineers of Le Mans, Le Mans (72)",
+    title:
+      "Engineering Degree in Computer Science (Human-Computer Interaction)",
+    corporation:
+      "ENSIM – National School of Engineers of Le Mans, Le Mans (72)",
     date: "2022 – 2025",
   },
   {
@@ -10,9 +12,6 @@ export const studies = [
     date: "2020 – 2022",
   },
 ];
-
-
-
 
 export const IconKeys = {
   html: "html",
@@ -45,7 +44,6 @@ export const IconKeys = {
 };
 
 export const skills = [
-  
   {
     title: "SQL ",
     icon: IconKeys.sql,
@@ -56,7 +54,7 @@ export const skills = [
   },
   {
     title: "Kubernetes",
-    icon: IconKeys.kubernetes
+    icon: IconKeys.kubernetes,
   },
   {
     title: "Python ",
@@ -89,7 +87,8 @@ export const skills = [
   {
     title: "React Js",
     icon: IconKeys.react,
-  },{
+  },
+  {
     title: "Django",
     icon: IconKeys.django,
   },
@@ -137,7 +136,6 @@ export const skills = [
     title: "Redux Js",
     icon: IconKeys.redux,
   },
- 
 
   {
     title: "Vite",
@@ -155,6 +153,7 @@ export const projects = [
     img: "../../../img/crazee.png",
     title: "Crazee Burger",
     link: "https://crazee-burger-pi.vercel.app/",
+    github_front: "https://github.com/carellihoula/crazee-burger.git",
     description: `Crazee Burger est une interface frontend pour la commande de burgers en ligne, développée avec ReactJS. `,
     technologies: [
       {
@@ -169,8 +168,50 @@ export const projects = [
       {
         icon: IconKeys.styled,
       },
-      
     ],
   },
- 
+  {
+    img: "../../../img/crazee.png",
+    title: "CanoChat",
+    github_front: "https://github.com/carellihoula/chat-frontend-reactjs.git",
+    github_back: "https://github.com/carellihoula/backend-chat-expressjs.git",
+    description: `CanoChat is a real-time chat app using WebSockets for fast communication. , it provides a smooth messaging experience.`,
+    technologies: [
+      {
+        icon: IconKeys.javaScript,
+      },
+      {
+        icon: IconKeys.react,
+      },
+      {
+        icon: IconKeys.typeScript,
+      },
+      {
+        icon: IconKeys.socketIo,
+      },
+      {
+        icon: IconKeys.mongoDB,
+      },
+    ],
+  },
+  {
+    img: "../../../img/crazee.png",
+    title: "Bundesliga Team Performance Analysis",
+    github_back: "https://github.com/carellihoula/FootBallDataAnalysis.git",
+    description: `A data engineering project analyzing team performance in the Bundesliga. Built with Python, Apache Spark, Streamlit, and Pandas for efficient data processing and visualization.`,
+    technologies: [
+      {
+        icon: IconKeys.python,
+      },
+      {
+        icon: IconKeys.apacheSpark,
+      },
+      {
+        icon: IconKeys.streamlit,
+      },
+      {
+        icon: IconKeys.pandas,
+      },
+    ],
+  },
 ];

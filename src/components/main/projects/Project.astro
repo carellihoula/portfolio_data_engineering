@@ -10,10 +10,12 @@ export interface Props {
   img: string;
   description: string;
   technologies?: Technology[];
-  link: string;
+  link?: string;
+  github_front?: string;
+   github_back?: string
 }
 
-const { technologies, title, img, description, link } = Astro.props;
+const { technologies, title, img, description, link, github_front, github_back } = Astro.props;
 ---
 
 <li class="li-project">
@@ -32,7 +34,10 @@ const { technologies, title, img, description, link } = Astro.props;
     }
   </div>
   <div class="container-link-project">
-    <a href={link} target="_blank">View</a>
+    { link && <a href={link} target="_blank">View</a>}
+    
+     {github_front && <a href={github_front} target="_blank">{!github_back? "Github":"Github Front"}</a>}
+     {github_back && <a href={github_back} target="_blank">{!github_front ? "Github":"Github Back"}</a>}
   </div>
 </li>
 
