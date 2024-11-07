@@ -10,7 +10,7 @@ import Project from "./Project.astro";
     <div>
       <ul class="ul-projects">
         {
-          projects.map(({ description, img, link, github_front, github_back, technologies, title }) => (
+          projects.map(({ description, img, link, github_front, github_back, technologies, title, isFinished }) => (
             <Project
               img={img}
               description={description}
@@ -19,6 +19,7 @@ import Project from "./Project.astro";
               github_front={github_front}
               github_back={github_back}
               technologies={technologies}
+              isFinished={isFinished}
             />
           ))
         }

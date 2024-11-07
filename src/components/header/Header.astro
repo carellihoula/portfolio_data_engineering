@@ -1,5 +1,5 @@
 <header class="header">
-  <h1 id="inicio">Portfolio</h1>
+ <h1 id="inicio" class="slogan">Turning Ideas into Impactful Code</h1>
   <nav class="nav">
     <ul class="ul-nav">
       <a href="#inicio">
@@ -126,6 +126,24 @@
 
   .menu-drop {
     display: none;
+  }
+
+  .slogan {
+    font-size: 2.5em;
+    color: #f6f6f9;
+    text-shadow: 0 0 5px #01be96, 0 0 10px #01be96, 0 0 20px #01be96, 0 0 40px #01be96, 0 0 80px #01be96, 0 0 90px #01be96, 0 0 100px #01be96, 0 0 150px #01be96;
+    animation: neonGlow 1.5s ease-in-out infinite alternate;
+  }
+
+  @keyframes neonGlow {
+    from {
+      text-shadow: 0 0 5px #01be96, 0 0 10px #01be96, 0 0 20px #01be96, 0 0 40px #01be96, 0 0 80px #01be96, 0 0 90px #01be96, 0 0 100px #01be96, 0 0 150px #01be96;
+      color: #ffffff;
+    }
+    to {
+      text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc, 0 0 30px #00ffcc, 0 0 40px #00ffcc, 0 0 70px #00ffcc, 0 0 80px #00ffcc, 0 0 100px #00ffcc, 0 0 150px #00ffcc;
+      color: #e0f7fa;
+    }
   }
   /* resposive */
 

@@ -12,14 +12,24 @@ export interface Props {
   technologies?: Technology[];
   link?: string;
   github_front?: string;
-   github_back?: string
+   github_back?: string;
+   isFinished? : boolean;
 }
 
-const { technologies, title, img, description, link, github_front, github_back } = Astro.props;
+const { technologies, title, img, description, link, github_front, github_back, isFinished } = Astro.props;
 ---
 
 <li class="li-project">
-  <img src={img} alt={title} loading="lazy" />
+  <div class="image-container">
+    <img src={img} alt={title} loading="lazy" class={!isFinished ? 'blurred' : ''}/>
+
+    { !isFinished && (
+           <div class="overlay">
+            <span>Project in Progress</span>
+          </div>
+      )
+    }
+  </div>
   <p class="title-project">{title}</p>
   <p class="description-project">
     {description}
@@ -121,7 +131,7 @@ const { technologies, title, img, description, link, github_front, github_back }
     font-size: 17px;
     font-weight: 400;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    text-align: justify;
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
@@ -156,5 +166,35 @@ const { technologies, title, img, description, link, github_front, github_back }
     border-radius: 5px;
     color: #f6f6f9;
     justify-content: space-between;
+  }
+   .image-container {
+    position: relative;
+  }
+
+  .image-container img {
+    display: block;
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    transition: filter 0.3s ease;
+  }
+   .blurred {
+    filter: blur(1px); /* Apply blur if project is not finished */
+  }
+    .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 1;
+    transition: opacity 0.3s;
   }
 </style>
