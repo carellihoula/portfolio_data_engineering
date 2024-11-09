@@ -246,7 +246,7 @@ export const projects = [
     ],
   },
   {
-    img: "../../../img/crazee.png",
+    img: "../../../img/chatbot.png",
     title: "Ephemeral Chatbot",
     isFinished: true,
     github_back: "https://github.com/carellihoula/chatbot-react-django.git",
