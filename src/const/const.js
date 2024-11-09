@@ -186,7 +186,7 @@ export const projects = [
     ],
   },
   {
-    img: "../../../img/crazee.png",
+    img: "../../../img/canochat.png",
     title: "CanoChat",
     isFinished: true,
     github_front: "https://github.com/carellihoula/chat-frontend-reactjs.git",
