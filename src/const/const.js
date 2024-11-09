@@ -40,6 +40,16 @@ export const IconKeys = {
   python: "python",
   tensorflow: "tensorflow",
   sql: "sql",
+  socketio: "socketio",
+  apacheSpark: "apacheSpark",
+  pandas: "pandas",
+  streamlit: "streamlit",
+  mqtt: "mqtt",
+  cpp: "cpp",
+  arduino: "arduino",
+  torch: "torch",
+  scikitLearn: "scikitLearn",
+
   // here add more icon keys
 };
 
@@ -53,20 +63,20 @@ export const skills = [
     icon: IconKeys.docker,
   },
   {
-    title: "Kubernetes",
-    icon: IconKeys.kubernetes,
+    title: "arduino",
+    icon: IconKeys.arduino,
   },
   {
     title: "Python ",
     icon: IconKeys.python,
   },
   {
-    title: "Airflow ",
-    icon: IconKeys.airflow,
+    title: "C++ ",
+    icon: IconKeys.cpp,
   },
   {
-    title: "Apache Kafka ",
-    icon: IconKeys.kafka,
+    title: "MQTT ",
+    icon: IconKeys.mqtt,
   },
   {
     title: "PowerBI ",
@@ -81,8 +91,8 @@ export const skills = [
     icon: IconKeys.gitlabci,
   },
   {
-    title: " Apache Spark ",
-    icon: IconKeys.spark,
+    title: "Apache Spark",
+    icon: IconKeys.apacheSpark,
   },
   {
     title: "React Js",
@@ -146,6 +156,10 @@ export const skills = [
     title: "Mongo Db",
     icon: IconKeys.mongodb,
   },
+  {
+    title: "socket io",
+    icon: IconKeys.socketio,
+  },
 ];
 
 export const projects = [
@@ -180,19 +194,19 @@ export const projects = [
     description: `CanoChat is a real-time chat app using WebSockets for fast communication. , it provides a smooth messaging experience.`,
     technologies: [
       {
-        icon: IconKeys.javaScript,
-      },
-      {
         icon: IconKeys.react,
       },
       {
         icon: IconKeys.typeScript,
       },
       {
-        icon: IconKeys.socketIo,
+        icon: IconKeys.nodejs,
       },
       {
-        icon: IconKeys.mongoDB,
+        icon: IconKeys.socketio,
+      },
+      {
+        icon: IconKeys.mongodb,
       },
     ],
   },
@@ -226,9 +240,9 @@ export const projects = [
     technologies: [
       { icon: IconKeys.python },
       { icon: IconKeys.torch },
-      { icon: IconKeys.scikitLearn },
       { icon: IconKeys.pandas },
       { icon: IconKeys.matplotlib },
+      { icon: IconKeys.scikitLearn },
     ],
   },
   {
@@ -242,13 +256,10 @@ export const projects = [
         icon: IconKeys.react,
       },
       {
-        icon: IconKeys.javaScript,
+        icon: IconKeys.typeScript,
       },
       {
-        icon: IconKeys.api,
-      },
-      {
-        icon: IconKeys.mistral,
+        icon: IconKeys.python,
       },
     ],
   },
@@ -264,22 +275,22 @@ export const projects = [
     description: `An IoT project for environmental monitoring using two ESP32 devices with DHT22 and BME280 sensors. Data is transmitted securely via MQTT (HiveMQ Cloud) and TLS, stored in MongoDB, and displayed in a ReactJS frontend with a backend built in ExpressJS.`,
     technologies: [
       {
-        icon: IconKeys.cpp,
-      },
-      {
         icon: IconKeys.react,
       },
+
+      {
+        icon: IconKeys.nodejs,
+      },
+      {
+        icon: IconKeys.cpp,
+      },
+
       {
         icon: IconKeys.mqtt,
       },
+
       {
-        icon: IconKeys.mongoDB,
-      },
-      {
-        icon: IconKeys.express,
-      },
-      {
-        icon: IconKeys.tls,
+        icon: IconKeys.arduino,
       },
     ],
   },
