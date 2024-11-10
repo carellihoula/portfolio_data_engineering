@@ -211,7 +211,7 @@ export const projects = [
     ],
   },
   {
-    img: "../../../img/crazee.png",
+    img: "../../../img/bundesliga.png",
     title: "Bundesliga Team Performance Analysis",
     isFinished: true,
     github_back: "https://github.com/carellihoula/FootBallDataAnalysis.git",
@@ -222,6 +222,9 @@ export const projects = [
       },
       {
         icon: IconKeys.apacheSpark,
+      },
+      {
+        icon: IconKeys.docker,
       },
       {
         icon: IconKeys.streamlit,
