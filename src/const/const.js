@@ -213,6 +213,7 @@ export const projects = [
   {
     img: "../../../img/bundesliga.png",
     title: "Bundesliga Team Performance Analysis",
+    link: "https://bundesliga-analysis-production.up.railway.app/",
     isFinished: true,
     github_back: "https://github.com/carellihoula/FootBallDataAnalysis.git",
     description: `A data engineering project analyzing team performance in the Bundesliga. Built with Python, Apache Spark, Streamlit, and Pandas for efficient data processing and visualization.`,
@@ -220,9 +221,7 @@ export const projects = [
       {
         icon: IconKeys.python,
       },
-      {
-        icon: IconKeys.apacheSpark,
-      },
+
       {
         icon: IconKeys.docker,
       },
