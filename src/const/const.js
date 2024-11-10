@@ -49,6 +49,13 @@ export const IconKeys = {
   arduino: "arduino",
   torch: "torch",
   scikitLearn: "scikitLearn",
+  aws: "aws",
+  jenkins: "jenkins",
+  django: "django",
+  gitlab: "gitlab",
+  shell: "shell",
+  springboot: "springboot",
+  powerbi: "powerbi",
 
   // here add more icon keys
 };
@@ -59,12 +66,20 @@ export const skills = [
     icon: IconKeys.sql,
   },
   {
+    title: "Aws",
+    icon: IconKeys.aws,
+  },
+  {
     title: "Docker ",
     icon: IconKeys.docker,
   },
   {
     title: "arduino",
     icon: IconKeys.arduino,
+  },
+  {
+    title: "shell",
+    icon: IconKeys.shell,
   },
   {
     title: "Python ",
@@ -87,8 +102,12 @@ export const skills = [
     icon: IconKeys.jenkins,
   },
   {
+    title: "springBoot ",
+    icon: IconKeys.springboot,
+  },
+  {
     title: "GitLab CI ",
-    icon: IconKeys.gitlabci,
+    icon: IconKeys.gitlab,
   },
   {
     title: "Apache Spark",
@@ -234,7 +253,7 @@ export const projects = [
     ],
   },
   {
-    img: "../../../img/crazee.png",
+    img: "../../../img/ai.png",
     title: "DeepLearning2PlayOthello",
     isFinished: true,
     github_back: "https://github.com/carellihoula/Artificial-Intelligence.git",
@@ -262,6 +281,9 @@ export const projects = [
       },
       {
         icon: IconKeys.python,
+      },
+      {
+        icon: IconKeys.django,
       },
     ],
   },
