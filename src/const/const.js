@@ -62,69 +62,44 @@ export const IconKeys = {
 
 export const skills = [
   {
-    title: "SQL ",
-    icon: IconKeys.sql,
+    title: "React Js",
+    icon: IconKeys.react,
   },
   {
-    title: "Aws",
-    icon: IconKeys.aws,
-  },
-  {
-    title: "Docker ",
-    icon: IconKeys.docker,
-  },
-  {
-    title: "arduino",
-    icon: IconKeys.arduino,
-  },
-  {
-    title: "shell",
-    icon: IconKeys.shell,
-  },
-  {
-    title: "Python ",
-    icon: IconKeys.python,
-  },
-  {
-    title: "C++ ",
-    icon: IconKeys.cpp,
-  },
-  {
-    title: "MQTT ",
-    icon: IconKeys.mqtt,
-  },
-  {
-    title: "PowerBI ",
-    icon: IconKeys.powerbi,
-  },
-  {
-    title: "Jenkins ",
-    icon: IconKeys.jenkins,
+    title: "Node Js",
+    icon: IconKeys.nodejs,
   },
   {
     title: "springBoot ",
     icon: IconKeys.springboot,
   },
   {
+    title: "AWS",
+    icon: IconKeys.aws,
+  },
+
+  {
+    title: "Docker ",
+    icon: IconKeys.docker,
+  },
+  {
+    title: "shell",
+    icon: IconKeys.shell,
+  },
+  {
+    title: "Git",
+    icon: IconKeys.git,
+  },
+
+  {
+    title: "Github",
+    icon: IconKeys.github,
+  },
+  {
     title: "GitLab CI ",
     icon: IconKeys.gitlab,
   },
-  {
-    title: "Apache Spark",
-    icon: IconKeys.apacheSpark,
-  },
-  {
-    title: "React Js",
-    icon: IconKeys.react,
-  },
-  {
-    title: "Django",
-    icon: IconKeys.django,
-  },
-  {
-    title: "Node Js",
-    icon: IconKeys.nodejs,
-  },
+
   {
     title: "TypeScript",
     icon: IconKeys.typeScript,
@@ -141,24 +116,13 @@ export const skills = [
     title: "Css",
     icon: IconKeys.css,
   },
-
   {
-    title: "Tailwindcss",
-    icon: IconKeys.tailwind,
-  },
-
-  {
-    title: "Git",
-    icon: IconKeys.git,
-  },
-
-  {
-    title: "Github",
-    icon: IconKeys.github,
+    title: "Mongo Db",
+    icon: IconKeys.mongodb,
   },
   {
-    title: "Material UI",
-    icon: IconKeys.materialUi,
+    title: "socket io",
+    icon: IconKeys.socketio,
   },
 
   {
@@ -167,17 +131,57 @@ export const skills = [
   },
 
   {
-    title: "Vite",
-    icon: IconKeys.vite,
+    title: "Django",
+    icon: IconKeys.django,
+  },
+  {
+    title: "Tailwindcss",
+    icon: IconKeys.tailwind,
   },
 
   {
-    title: "Mongo Db",
-    icon: IconKeys.mongodb,
+    title: "Material UI",
+    icon: IconKeys.materialUi,
+  },
+
+  {
+    title: "PowerBI ",
+    icon: IconKeys.powerbi,
   },
   {
-    title: "socket io",
-    icon: IconKeys.socketio,
+    title: "Apache Spark",
+    icon: IconKeys.apacheSpark,
+  },
+
+  {
+    title: "Python ",
+    icon: IconKeys.python,
+  },
+  {
+    title: "SQL ",
+    icon: IconKeys.sql,
+  },
+  {
+    title: "C++ ",
+    icon: IconKeys.cpp,
+  },
+  {
+    title: "arduino",
+    icon: IconKeys.arduino,
+  },
+
+  {
+    title: "MQTT ",
+    icon: IconKeys.mqtt,
+  },
+  {
+    title: "Jenkins ",
+    icon: IconKeys.jenkins,
+  },
+
+  {
+    title: "Vite",
+    icon: IconKeys.vite,
   },
 ];
 
