@@ -187,6 +187,36 @@ export const skills = [
 
 export const projects = [
   {
+    img: "../../../img/iotensim.png",
+    title: "IoT Environmental Monitoring",
+    isFinished: false,
+    github_back:
+      "https://github.com/carellihoula/iot-environmental-monitoring.git",
+    github_front:
+      "https://github.com/carellihoula/iot-environmental-monitoring.git",
+    description: `An IoT project for environmental monitoring using two ESP32 devices with DHT22 and BME280 sensors. Data is transmitted securely via MQTT (HiveMQ Cloud) and TLS, stored in MongoDB, and displayed in a ReactJS frontend with a backend built in ExpressJS.`,
+    technologies: [
+      {
+        icon: IconKeys.react,
+      },
+
+      {
+        icon: IconKeys.nodejs,
+      },
+      {
+        icon: IconKeys.cpp,
+      },
+
+      {
+        icon: IconKeys.mqtt,
+      },
+
+      {
+        icon: IconKeys.arduino,
+      },
+    ],
+  },
+  {
     img: "../../../img/crazee.png",
     title: "Crazee Burger",
     isFinished: true,
@@ -291,34 +321,5 @@ export const projects = [
       },
     ],
   },
-  {
-    img: "../../../img/iotensim.png",
-    title: "IoT Environmental Monitoring",
-    isFinished: false,
-    github_back:
-      "https://github.com/carellihoula/iot-environmental-monitoring.git",
-    github_front:
-      "https://github.com/carellihoula/iot-environmental-monitoring.git",
-    description: `An IoT project for environmental monitoring using two ESP32 devices with DHT22 and BME280 sensors. Data is transmitted securely via MQTT (HiveMQ Cloud) and TLS, stored in MongoDB, and displayed in a ReactJS frontend with a backend built in ExpressJS.`,
-    technologies: [
-      {
-        icon: IconKeys.react,
-      },
-
-      {
-        icon: IconKeys.nodejs,
-      },
-      {
-        icon: IconKeys.cpp,
-      },
-
-      {
-        icon: IconKeys.mqtt,
-      },
-
-      {
-        icon: IconKeys.arduino,
-      },
-    ],
-  },
+  
 ];
