@@ -292,7 +292,7 @@ export const projects = [
     ],
   },
   {
-    img: "../../../img/iot.png",
+    img: "../../../img/iotensim.png",
     title: "IoT Environmental Monitoring",
     isFinished: false,
     github_back:
