@@ -189,7 +189,7 @@ export const projects = [
   {
     img: "../../../img/iotensim.png",
     title: "IoT Environmental Monitoring",
-    isFinished: false,
+    isFinished: true,
     github_back:
       "https://github.com/carellihoula/iot-environmental-monitoring.git",
     github_front:
