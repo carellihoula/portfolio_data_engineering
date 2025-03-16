@@ -190,6 +190,7 @@ export const projects = [
     img: "../../../img/iotensim.png",
     title: "IoT Environmental Monitoring",
     isFinished: true,
+    link: "https://ensim-iot.vercel.app/auth",
     github_front:
       "https://github.com/carellihoula/iot-environmental-monitoring-frontend.git",
     description: `An IoT project for environmental monitoring using two ESP32 devices with DHT22 and BME280 sensors. Data is transmitted securely via MQTT (HiveMQ Cloud) and TLS, stored in MongoDB, and displayed in a ReactJS frontend with a backend built in ExpressJS.`,
