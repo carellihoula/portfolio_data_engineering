@@ -187,7 +187,7 @@ export const skills = [
 
 export const projects = [
   {
-    img: "../../../img/iotensim.png",
+    img: "../../../img/iotensim.PNG",
     title: "IoT Environmental Monitoring",
     isFinished: true,
     link: "https://ensim-iot.vercel.app/auth",
